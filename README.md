@@ -45,7 +45,7 @@ Frontend    │  Blade Templates
 
 ## 🚀 Featured Projects
 
-### 🛒 E-Commerce API [<img src="https://img.icons8.com/ios-filled/20/link.png" alt="Link">](https://drive.google.com/file/d/1SovGC74ECsjI0p8gz3tZz1lrY9im25Ob/view)
+### 🛒 E-Commerce API [![Demo](https://img.shields.io/badge/Demo-blue?style=flat-square&logo=google-drive)](https://drive.google.com/file/d/1SovGC74ECsjI0p8gz3tZz1lrY9im25Ob/view)
 > **Laravel · MariaDB · Sanctum · Socket.io · Firebase**
 
 A full-featured RESTful API consumed by a mobile application — built for scale and real-world business logic.
@@ -61,7 +61,7 @@ A full-featured RESTful API consumed by a mobile application — built for scale
 
 ---
 
-### 📋 Task & Project Management API [<img src="https://img.icons8.com/ios-filled/20/link.png" alt="Link">](https://drive.google.com/file/d/1d94PhjvYB8cDGA2SFRiXf1FPtAUNEm4h/view)
+### 📋 Task & Project Management API [![Demo](https://img.shields.io/badge/Demo-blue?style=flat-square&logo=google-drive)](https://drive.google.com/file/d/1d94PhjvYB8cDGA2SFRiXf1FPtAUNEm4h/view)
 > **Native PHP · MariaDB** *(Training Project — Systems Solutions)*
 
 A RESTful API built from scratch in native PHP covering full project and team management.
