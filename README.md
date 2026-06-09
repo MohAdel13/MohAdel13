@@ -21,7 +21,7 @@ Results-driven Backend Developer with hands-on experience building robust **Lara
 ## 🛠️ Tech Stack
 
 ```
-Backend     │  PHP • Laravel • Sanctum • Modular Laravel
+Backend     │  PHP • Laravel • Sanctum • Modular Laravel • Cache • Redis
 Databases   │  MySQL • MariaDB
 APIs        │  RESTful API Design • WebSocket • Postman
 DevOps      │  GitHub • cPanel
@@ -47,7 +47,7 @@ Frontend    │  Blade Templates
 ## 🚀 Featured Projects
 
 ### 🛒 E-Commerce API [![Demo](https://img.shields.io/badge/Demo-blue?style=flat-square&logo=google-drive)](https://drive.google.com/file/d/1SovGC74ECsjI0p8gz3tZz1lrY9im25Ob/view)
-> **Laravel · MariaDB · Sanctum · Socket.io · Firebase**
+> **Laravel · MariaDB · Sanctum · Socket.io · Firebase · Cache**
 
 A full-featured RESTful API consumed by a mobile application — built for scale and real-world business logic.
 
@@ -59,6 +59,7 @@ A full-featured RESTful API consumed by a mobile application — built for scale
 - 📥 **Bulk data import** for products, variants & categories via Excel/CSV (Laravel Excel)
 - 🔐 **Laravel Sanctum** token-based authentication on all endpoints
 - 🛒 Cart management, order placement, variant selection & multi-address support
+- ⚡ **caching** on the home page endpoint with automatic cache invalidation on data changes
 
 ---
 
