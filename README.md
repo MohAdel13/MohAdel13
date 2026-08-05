@@ -81,7 +81,7 @@ A RESTful API built from scratch in native PHP covering full project and team ma
 ## 💼 Work Experience
 
 **PHP / Laravel Backend Developer** — *Systems Solutions, Cairo*
-`February 2026 – Present`
+`February 2026 – August 2026`
 - Built and deployed production Laravel RESTful APIs for mobile applications
 - Designed normalized relational DB schemas with Eloquent ORM optimized queries
 - Implemented Sanctum auth, structured API responses, stock validation & bulk imports
