@@ -6,7 +6,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-adel-14885b248)
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:Mohammedofficial1311@gmail.com)
 [![Location](https://img.shields.io/badge/Cairo-Egypt-red?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Cairo,Egypt)
-[![Portfolio](https://img.shields.io/badge/Portfolio-success?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mohmamed-adel-portofolio.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-success?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mohamed-adel-mohamed-portfolio.vercel.app/)
 
 </div>
 
@@ -14,18 +14,19 @@
 
 ## 👨‍💻 About Me
 
-Results-driven Backend Developer with hands-on experience building robust **Laravel APIs** for mobile applications, including a full-featured e-commerce platform and a tasks & project management system. Backed by a background in digital analytics, I bring a **data-informed perspective** to backend development. Passionate about writing clean, scalable code and delivering reliable API solutions that power seamless mobile experiences.
+Laravel Backend Developer with production experience building secure, scalable REST APIs for mobile and web clients, from e-commerce to attendance and workforce management. Combines clean layered architecture and real-time features with a data-driven mindset from a digital analytics background.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```
-Backend     │  PHP • Laravel • Sanctum • Modular Laravel • Cache • Redis
-Databases   │  MySQL • MariaDB
-APIs        │  RESTful API Design • WebSocket • Postman
-DevOps      │  GitHub • cPanel
-Frontend    │  Blade Templates
+Backend      │  PHP • Laravel • Modular Laravel • Service/Repository Pattern • Queues & Jobs • Multi-language Support (i18n)
+Auth         │  Sanctum • Role-Based Access Control (RBAC)
+Databases    │  MySQL • MariaDB • Redis • Caching
+APIs         │  RESTful API Design • WebSocket (Reverb, Socket.io) • Firebase Cloud Messaging • Postman
+DevOps       │  GitHub • cPanel
+Frontend     │  Blade Templates
 ```
 
 <div align="center">
@@ -34,7 +35,9 @@ Frontend    │  Blade Templates
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-02569B?style=flat-square&logo=fastapi&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Laravel Reverb](https://img.shields.io/badge/Laravel_Reverb-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-API-02569B?style=flat-square&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat-square&logo=socket.io&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
@@ -45,6 +48,24 @@ Frontend    │  Blade Templates
 ---
 
 ## 🚀 Featured Projects
+
+### 🕒 InOut: Attendance & Workforce API
+> **Laravel · MariaDB · Sanctum · Reverb · Firebase · Pest**
+
+A modular RESTful API consumed by a Flutter mobile app and web front-end, covering attendance, requests, projects, and team management.
+
+- 🔐 **Phone OTP authentication** with rate limits and device binding, secured by Laravel Sanctum tokens
+- 🛡️ **Role-based access** (employee, reviewer, admin) enforced on the backend via middleware and policies
+- ⏱️ **Attendance engine** with office/home/off schedules, holiday handling, late classification, pauses, and a live attendance board
+- 📊 **Monthly KPI scoring** based on attendance rules (Africa/Cairo timezone)
+- ✅ **Approval workflows** for leave, late, and absence requests managed by admins
+- 📢 **Announcements** with pinning, acknowledgements, and poll voting
+- 📁 **Projects & tasks** with members, manager assignment, workflows, comments, attachments, time logs, and admin-only client/contract/finance endpoints
+- 🔔 **Firebase Cloud Messaging** push notifications and **Reverb** WebSockets for real-time updates
+- 🌐 **Bilingual API messages** (Arabic & English) via `Accept-Language`, with Arabic as the default
+- 🏗️ **Layered architecture** (Controller → FormRequest → Service → Repository → Model) with Pest feature tests and a Postman collection
+
+---
 
 ### 🛒 E-Commerce API [![Demo](https://img.shields.io/badge/Demo-blue?style=flat-square&logo=google-drive)](https://drive.google.com/file/d/1SovGC74ECsjI0p8gz3tZz1lrY9im25Ob/view)
 > **Laravel · MariaDB · Sanctum · Socket.io · Firebase · Cache**
@@ -59,7 +80,7 @@ A full-featured RESTful API consumed by a mobile application — built for scale
 - 📥 **Bulk data import** for products, variants & categories via Excel/CSV (Laravel Excel)
 - 🔐 **Laravel Sanctum** token-based authentication on all endpoints
 - 🛒 Cart management, order placement, variant selection & multi-address support
-- ⚡ **caching** on the home page endpoint with automatic cache invalidation on data changes
+- ⚡ **Caching** on the home page endpoint with automatic cache invalidation on data changes
 
 ---
 
@@ -79,6 +100,14 @@ A RESTful API built from scratch in native PHP covering full project and team ma
 ---
 
 ## 💼 Work Experience
+
+**PHP / Laravel Backend Developer** — *Matrix Clouds, Cairo*
+`September 2026 – Present`
+- Modified, maintained, and extended production Laravel applications, delivering features and fixes safely
+- Designed and built a new Laravel backend from scratch, from DB schema and API design to deployment
+- Built RESTful APIs for mobile and web front-end teams with Sanctum auth, RBAC, and request validation
+- Applied a layered architecture (Controller → Service → Repository) with Pest tests and maintained Postman docs
+- Managed production setup including queues, scheduled jobs, WebSockets, and push notifications
 
 **PHP / Laravel Backend Developer** — *Systems Solutions, Cairo*
 `February 2026 – August 2026`
